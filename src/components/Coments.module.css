@@ -50,10 +50,23 @@
     
     font-style: none;
 }
+.footerComment{
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+
+}
+.footerComment:hover{
+    cursor: pointer;
+
+}
 
 .heart{
     display: inline;
-
+    
     margin-left: 10px;
 }
 .coment div p{

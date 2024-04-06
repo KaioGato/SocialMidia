@@ -16,8 +16,10 @@ export function Coments(props){
              {props.content}
              </strong>
           </aside>
+          <footer className={styles.footerComment}>
              <Heart className={styles.heart}/>
              <p>Curtir</p>
+          </footer>   
          </div>
        </main> 
     )
